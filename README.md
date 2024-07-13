@@ -74,7 +74,7 @@ We also provide checkpoints for models we used in `checkpoints` directory of thi
 Text Experiment note:
 - Download text dataset from [haiyang's google drive](https://drive.google.com/drive/folders/1dt0aGMBvCEUYzaG00TYu1D03GPO7305z).
 - Unzip datasets into /datasets folder
-- Change name of folder and files inside the raw folder. `Graph-SST5` -> `graph_sst5` ; `Graph-Twitter` -> `twitter` 
+- Change name of folder and files inside the raw folder. `Graph-SST2` -> `graph_sst2` ; `Graph-Twitter` -> `twitter` 
 - Run with experiments=single_motif
 
 #### Methods
