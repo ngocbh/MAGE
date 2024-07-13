@@ -1,0 +1,15 @@
+name: multi_motifs
+experiment_settings: []
+num_motifs: -1
+
+sparsity_param:
+  mage: 'beta'
+  subgraphx: 'max_ex_size'
+  gnn_explainer: 'max_ex_size'
+  edgeshaper: 'max_ex_size'
+  pgexplainer: 'max_ex_size'
+  gstarx: 'max_ex_size'
+  grad_cam: 'max_ex_size'
+  match_explainer: 'max_ex_size'
+  refine: 'max_ex_size'
+  same: 'max_ex_size'

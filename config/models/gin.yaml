@@ -1,0 +1,264 @@
+gnn_saving_dir: 'checkpoints'
+gnn_name: 'gin'
+param:
+  mutag:
+    learning_rate: 0.005
+    weight_decay: 0.0
+    milestones: None
+    gamma: None
+    batch_size: 64
+    num_epochs: 800
+    num_early_stop: 100
+    gnn_latent_dim:
+      - 128
+      - 128
+      - 128
+    gnn_dropout: 0
+    add_self_loop: False
+    gnn_emb_normalization: False
+    graph_classification: True
+    node_classification: False
+    readout: 'mean'
+    fc_latent_dim: []
+    fc_dropout: 0.0
+    fc_nonlinear: 'relu'
+    concate: False
+  mutag0:
+    learning_rate: 0.001
+    weight_decay: 0.0
+    milestones: None
+    gamma: None
+    batch_size: 64
+    num_epochs: 800
+    num_early_stop: 100
+    gnn_latent_dim:
+      - 128
+      - 128
+      - 128
+    gnn_dropout: 0
+    add_self_loop: False
+    gnn_emb_normalization: False
+    graph_classification: True
+    node_classification: False
+    readout: 'max'
+    fc_latent_dim: []
+    fc_dropout: 0.0
+    fc_nonlinear: 'relu'
+    concate: False
+  benzene:
+    learning_rate: 0.001
+    weight_decay: 0.0005
+    milestones: None
+    gamma: None
+    batch_size: 64
+    num_epochs: 800
+    num_early_stop: 100
+    gnn_latent_dim:
+      - 32
+      - 32
+      - 32
+    gnn_dropout: 0
+    add_self_loop: False
+    gnn_emb_normalization: False
+    graph_classification: True
+    node_classification: False
+    readout: 'mean'
+    fc_latent_dim: []
+    fc_dropout: 0.0
+    fc_nonlinear: 'relu'
+    concate: False
+  mnist75sp:
+    learning_rate: 0.001
+    weight_decay: 0.0005
+    milestones: None
+    gamma: None
+    batch_size: 64
+    num_epochs: 800
+    num_early_stop: 100
+    gnn_latent_dim:
+      - 128
+      - 128
+      - 128
+    gnn_dropout: 0
+    add_self_loop: False
+    gnn_emb_normalization: False
+    graph_classification: True
+    node_classification: False
+    readout: 'mean'
+    fc_latent_dim: []
+    fc_dropout: 0.0
+    fc_nonlinear: 'relu'
+    concate: False
+  ba_2motifs:
+    learning_rate: 0.001
+    weight_decay: 0.0
+    milestones: None
+    gamma: None
+    batch_size: 64
+    num_epochs: 800
+    num_early_stop: 100
+    gnn_latent_dim:
+      - 20
+      - 20
+      - 20
+    gnn_dropout: 0
+    add_self_loop: False
+    gnn_emb_normalization: False
+    graph_classification: True
+    node_classification: False
+    readout: 'mean'
+    fc_latent_dim: []
+    fc_dropout: 0.0
+    fc_nonlinear: 'relu'
+    concate: False
+  ba_house_grid:
+    learning_rate: 0.001
+    weight_decay: 0.0
+    milestones: None
+    gamma: None
+    batch_size: 64
+    num_epochs: 1000
+    num_early_stop: 100
+    gnn_latent_dim:
+      - 20
+      - 20
+      - 20
+    gnn_dropout: 0
+    add_self_loop: False
+    gnn_emb_normalization: False
+    graph_classification: True
+    node_classification: False
+    readout: 'mean'
+    fc_latent_dim: []
+    fc_dropout: 0.0
+    fc_nonlinear: 'relu'
+    concate: False
+  ba_house_and_grid:
+    learning_rate: 0.001
+    weight_decay: 0.0
+    milestones: None
+    gamma: None
+    batch_size: 64
+    num_epochs: 1000
+    num_early_stop: 100
+    gnn_latent_dim:
+      - 20
+      - 20
+      - 20
+    gnn_dropout: 0
+    add_self_loop: False
+    gnn_emb_normalization: False
+    graph_classification: True
+    node_classification: False
+    readout: 'mean'
+    fc_latent_dim: []
+    fc_dropout: 0.0
+    fc_nonlinear: 'relu'
+    concate: False
+  ba_house_or_grid:
+    learning_rate: 0.001
+    weight_decay: 0.0
+    milestones: None
+    gamma: None
+    batch_size: 64
+    num_epochs: 1000
+    num_early_stop: 100
+    gnn_latent_dim:
+      - 20
+      - 20
+      - 20
+    gnn_dropout: 0
+    add_self_loop: False
+    gnn_emb_normalization: False
+    graph_classification: True
+    node_classification: False
+    readout: 'mean'
+    fc_latent_dim: []
+    fc_dropout: 0.0
+    fc_nonlinear: 'relu'
+    concate: False
+  spmotif:
+    learning_rate: 0.01
+    weight_decay: 0.0
+    milestones: None
+    gamma: None
+    batch_size: 64
+    num_epochs: 1000
+    num_early_stop: 100
+    gnn_latent_dim:
+      - 20
+      - 20
+      - 20
+    gnn_dropout: 0
+    add_self_loop: False
+    gnn_emb_normalization: False
+    graph_classification: True
+    node_classification: False
+    readout: 'mean'
+    fc_latent_dim: []
+    fc_dropout: 0.0
+    fc_nonlinear: 'relu'
+    concate: False
+  graph_sst2:
+    learning_rate: 0.005
+    weight_decay: 0.0
+    milestones: None
+    gamma: None
+    batch_size: 256
+    num_epochs: 800
+    num_early_stop: 100
+    gnn_latent_dim:
+      - 128
+      - 128
+      - 128
+    gnn_dropout: 0
+    add_self_loop: False
+    gnn_emb_normalization: False
+    graph_classification: True
+    node_classification: False
+    readout: 'max'
+    fc_latent_dim: []
+    fc_dropout: 0.0
+    fc_nonlinear: 'relu'
+  graph_sst5:
+    learning_rate: 0.005
+    weight_decay: 0.0
+    milestones: None
+    gamma: None
+    batch_size: 256
+    num_epochs: 800
+    num_early_stop: 100
+    gnn_latent_dim:
+      - 128
+      - 128
+      - 128
+    gnn_dropout: 0
+    add_self_loop: False
+    gnn_emb_normalization: False
+    graph_classification: True
+    node_classification: False
+    readout: 'max'
+    fc_latent_dim: []
+    fc_dropout: 0.0
+    fc_nonlinear: 'relu'
+  twitter:
+    learning_rate: 0.005
+    weight_decay: 0.0
+    milestones: None
+    gamma: None
+    batch_size: 256
+    num_epochs: 800
+    num_early_stop: 100
+    gnn_latent_dim:
+      - 128
+      - 128
+      - 128
+    gnn_dropout: 0
+    add_self_loop: False
+    gnn_emb_normalization: False
+    graph_classification: True
+    node_classification: False
+    readout: 'max'
+    fc_latent_dim: []
+    fc_dropout: 0.0
+    fc_nonlinear: 'relu'

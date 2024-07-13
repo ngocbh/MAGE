@@ -1,0 +1,85 @@
+explainer_name: 'gstarx'
+explanation_result_dir: 'gstarx'
+superadditive_ext: False
+sample_method: 'random'
+num_samples: -1
+num_hops: 4
+
+param:
+  ba_2motifs:
+    payoff_type: 'norm_prob'
+    max_sample_size: 10
+    tau: 0.01
+    subgraph_building_method: 'remove'
+    sparsity: 0.5
+    max_ex_size: -1
+  mutag0:
+    payoff_type: 'norm_prob'
+    max_sample_size: 10
+    tau: 0.01
+    subgraph_building_method: 'remove'
+    sparsity: 0.5
+    max_ex_size: -1
+  benzene:
+    payoff_type: 'norm_prob'
+    max_sample_size: 10
+    tau: 0.01
+    subgraph_building_method: 'remove'
+    sparsity: 0.5
+    max_ex_size: -1
+  ba_house_grid:
+    payoff_type: 'norm_prob'
+    max_sample_size: 10
+    tau: 0.01
+    subgraph_building_method: 'remove'
+    sparsity: 0.5
+    max_ex_size: -1
+  ba_house_and_grid:
+    payoff_type: 'norm_prob'
+    max_sample_size: 10
+    tau: 0.01
+    subgraph_building_method: 'remove'
+    sparsity: 0.5
+    max_ex_size: -1
+  ba_house_or_grid:
+    payoff_type: 'norm_prob'
+    max_sample_size: 10
+    tau: 0.01
+    subgraph_building_method: 'remove'
+    sparsity: 0.5
+    max_ex_size: -1
+  mnist75sp:
+    payoff_type: 'norm_prob'
+    max_sample_size: 10
+    tau: 0.01
+    subgraph_building_method: 'remove'
+    sparsity: 0.5
+    max_ex_size: -1
+  spmotif:
+    payoff_type: 'norm_prob'
+    max_sample_size: 10
+    tau: 0.01
+    subgraph_building_method: 'remove'
+    sparsity: 0.5
+    max_ex_size: -1
+  graph_sst2:
+    payoff_type: 'norm_prob'
+    max_sample_size: 10
+    tau: 0.01
+    subgraph_building_method: 'remove'
+    sparsity: 0.5
+    max_ex_size: 0.3
+  graph_sst5:
+    payoff_type: 'norm_prob'
+    max_sample_size: 10
+    tau: 0.01
+    subgraph_building_method: 'remove'
+    sparsity: 0.5
+    max_ex_size: 0.3
+  twitter:
+    payoff_type: 'norm_prob'
+    max_sample_size: 10
+    tau: 0.01
+    subgraph_building_method: 'remove'
+    sparsity: 0.5
+    max_ex_size: 0.3

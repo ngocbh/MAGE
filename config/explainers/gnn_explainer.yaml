@@ -1,0 +1,102 @@
+explanation_result_dir: ''
+explainer_name: 'gnn_explainer'
+
+param:
+  bbbp:
+    lr: 0.01
+    epochs: 1000
+    coff_size: 0.001
+    coff_ent: 1e-5
+    sparsity: 0.5
+    max_ex_size: 5
+  ba_shapes:
+    lr: 0.01
+    epochs: 100
+    coff_size: 0.1
+    coff_ent: 0.1
+    sparsity: 0.5
+    max_ex_size: 5
+  graph_sst2:
+    lr: 0.01
+    epochs: 1000
+    coff_size: 0.001
+    coff_ent: 1e-5
+    sparsity: 0.5
+    max_ex_size: 5
+  graph_sst5:
+    lr: 0.01
+    epochs: 1000
+    coff_size: 0.001
+    coff_ent: 1e-5
+    sparsity: 0.5
+    max_ex_size: 5
+  twitter:
+    lr: 0.01
+    epochs: 1000
+    coff_size: 0.001
+    coff_ent: 1e-5
+    sparsity: 0.5
+    max_ex_size: 5
+  ba_2motifs:
+    lr: 0.01
+    epochs: 500
+    coff_size: 0.001
+    coff_ent: 1e-5
+    sparsity: 0.5
+    max_ex_size: 5
+  spmotif:
+    lr: 0.01
+    epochs: 500
+    coff_size: 0.001
+    coff_ent: 1e-5
+    sparsity: 0.5
+    max_ex_size: 5
+  ba_house_grid:
+    lr: 0.01
+    epochs: 500
+    coff_size: 0.001
+    coff_ent: 1e-5
+    sparsity: 0.5
+    max_ex_size: -1
+  ba_house_and_grid:
+    lr: 0.01
+    epochs: 500
+    coff_size: 0.001
+    coff_ent: 1e-5
+    sparsity: 0.5
+    max_ex_size: -1
+  ba_house_or_grid:
+    lr: 0.01
+    epochs: 500
+    coff_size: 0.001
+    coff_ent: 1e-5
+    sparsity: 0.5
+    max_ex_size: -1
+  mutag0:
+    lr: 0.01
+    epochs: 500
+    coff_size: 0.001
+    coff_ent: 1e-5
+    sparsity: 0.5
+    max_ex_size: 3
+  mutag:
+    lr: 0.01
+    epochs: 500
+    coff_size: 0.001
+    coff_ent: 1e-5
+    sparsity: 0.5
+    max_ex_size: 3
+  benzene:
+    lr: 0.01
+    epochs: 500
+    coff_size: 0.001
+    coff_ent: 1e-5
+    sparsity: 0.5
+    max_ex_size: 6
+  mnist75sp:
+    lr: 0.01
+    epochs: 500
+    coff_size: 0.001
+    coff_ent: 1e-5
+    sparsity: 0.5
+    max_ex_size: 6

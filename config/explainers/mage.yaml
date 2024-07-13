@@ -1,0 +1,150 @@
+explainer_name: 'mage'
+explanation_result_dir: 'mage'
+score_fn: 'myt'
+order: 2
+
+param:
+  mutag:
+    subgraph_building_method: 'split'
+    beta: -1
+    tau: 1.0
+    omega: 0.5
+    num_motifs: -1
+    num_samples: 200 
+    payoff_type: 'norm_logit'
+    connectivity: 'viky'
+  mutag0:
+    subgraph_building_method: 'split'
+    beta: -1
+    tau: 1.0
+    omega: 0.5
+    num_motifs: -1
+    num_samples: 200
+    payoff_type: 'norm_logit'
+    connectivity: 'viky'
+  mnist75sp:
+    subgraph_building_method: 'zero_filling'
+    beta: -1
+    tau: 1.0
+    omega: 0.5
+    num_motifs: 1
+    num_samples: 100
+    payoff_type: 'norm_logit'
+    connectivity: 'viky'
+  mnist_superpixel:
+    subgraph_building_method: 'zero_filling'
+    beta: -1
+    tau: 1.0
+    omega: 0.5
+    num_motifs: 1
+    num_samples: 100
+    payoff_type: 'norm_logit'
+    connectivity: 'viky'
+  benzene:
+    subgraph_building_method: 'split'
+    beta: -1
+    tau: 1.0
+    omega: 0.5
+    num_motifs: 1
+    num_samples: 200
+    payoff_type: 'norm_logit'
+    connectivity: 'viky'
+  ba_2motifs:
+    subgraph_building_method: 'split'
+    beta: 5
+    tau: 1.0
+    omega: 0.5
+    num_motifs: 1
+    num_samples: 200
+    payoff_type: 'norm_prob'
+    connectivity: 'viky'
+  ba_house_grid:
+    subgraph_building_method: 'split'
+    beta: -1
+    tau: 1.0
+    omega: 0.5
+    num_motifs: 1
+    num_samples: 200 
+    payoff_type: 'norm_prob'
+    connectivity: 'viky'
+  ba_house_and_grid:
+    subgraph_building_method: 'split'
+    beta: -1
+    tau: 1.0
+    omega: 0.5
+    num_motifs: -1
+    num_samples: 200 
+    payoff_type: 'norm_logit'
+    connectivity: 'viky'
+  ba_house_or_grid:
+    subgraph_building_method: 'split'
+    beta: -1
+    tau: 1.0
+    omega: 0.5
+    num_motifs: -1
+    num_samples: 200 
+    payoff_type: 'norm_logit'
+    connectivity: 'viky'
+  ba_shapes:
+    subgraph_building_method: 'split'
+    beta: 5
+    tau: 1.0
+    omega: 0.5
+    num_motifs: 1
+    num_samples: 200
+    payoff_type: 'norm_prob'
+    connectivity: 'viky'
+  bbbp:
+    subgraph_building_method: 'split'
+    beta: 5
+    tau: 1.0
+    omega: 0.5
+    num_motifs: 1
+    num_samples: 200
+    payoff_type: 'norm_prob'
+    connectivity: 'viky'
+  spmotif:
+    subgraph_building_method: 'split'
+    beta: -1
+    tau: 1.0
+    omega: 0.5
+    num_motifs: 1
+    num_samples: 200
+    payoff_type: 'norm_logit'
+    connectivity: 'viky'
+  graph_sst2:
+    subgraph_building_method: 'zero_filling'
+    beta: 0.4
+    tau: 1.0
+    omega: 0.5
+    num_motifs: 4
+    num_samples: 200
+    payoff_type: 'norm_logit'
+    connectivity: 'none'
+  graph_sst5:
+    subgraph_building_method: 'zero_filling'
+    beta: 0.4
+    tau: 1.0
+    omega: 0.5
+    num_motifs: 4
+    num_samples: 200 
+    payoff_type: 'norm_logit'
+    connectivity: 'none'
+  twitter:
+    subgraph_building_method: 'zero_filling'
+    beta: 0.4
+    tau: 1.0
+    omega: 0.5
+    num_motifs: 4
+    num_samples: 200 
+    payoff_type: 'norm_logit'
+    connectivity: 'none'
+  modelnet40:
+    subgraph_building_method: 'remove'
+    beta: 10
+    tau: 1.0
+    omega: 0.5
+    num_motifs: 4
+    num_samples: 200
+    payoff_type: 'norm_logit'
+    connectivity: 'none'

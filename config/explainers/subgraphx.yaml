@@ -1,0 +1,114 @@
+explanation_result_dir: 'results'
+explainer_name: 'subgraphx'
+
+param:
+  graph_sst2:
+    rollout: 20
+    high2low: False
+    c_puct: 10.0
+    min_atoms: 5
+    expand_atoms: 12
+    reward_method: 'mc_l_shapley'
+    subgraph_building_method: 'zero_filling'
+    verbose: True
+    max_ex_size: 0.3
+  graph_sst5:
+    rollout: 20
+    high2low: False
+    c_puct: 10.0
+    min_atoms: 5
+    expand_atoms: 12
+    reward_method: 'mc_l_shapley'
+    subgraph_building_method: 'zero_filling'
+    verbose: True
+    max_ex_size: 0.3
+  twitter:
+    rollout: 20
+    high2low: False
+    c_puct: 10.0
+    min_atoms: 5
+    expand_atoms: 12
+    reward_method: 'mc_l_shapley'
+    subgraph_building_method: 'zero_filling'
+    verbose: True
+    max_ex_size: 0.3
+  ba_2motifs:
+    rollout: 20
+    high2low: True
+    c_puct: 10.0
+    min_atoms: 5
+    expand_atoms: 20
+    reward_method: 'mc_l_shapley'
+    subgraph_building_method: 'split'
+    verbose: True
+    max_ex_size: 5
+  ba_house_grid:
+    rollout: 20
+    high2low: True
+    c_puct: 10.0
+    min_atoms: 5
+    expand_atoms: 20
+    reward_method: 'mc_l_shapley'
+    subgraph_building_method: 'split'
+    verbose: True
+    max_ex_size: 5
+  ba_house_and_grid:
+    rollout: 20
+    high2low: True
+    c_puct: 10.0
+    min_atoms: 5
+    expand_atoms: 20
+    reward_method: 'mc_l_shapley'
+    subgraph_building_method: 'split'
+    verbose: True
+    max_ex_size: -1
+  spmotif:
+    rollout: 20
+    high2low: True
+    c_puct: 10.0
+    min_atoms: 5
+    expand_atoms: 20
+    reward_method: 'mc_l_shapley'
+    subgraph_building_method: 'split'
+    verbose: True
+    max_ex_size: -1
+  ba_house_or_grid:
+    rollout: 20
+    high2low: True
+    c_puct: 10.0
+    min_atoms: 5
+    expand_atoms: 20
+    reward_method: 'mc_l_shapley'
+    subgraph_building_method: 'split'
+    verbose: True
+    max_ex_size: -1
+  mutag0:
+    rollout: 20
+    high2low: True
+    c_puct: 10.0
+    min_atoms: 5
+    expand_atoms: 20
+    reward_method: 'mc_l_shapley'
+    subgraph_building_method: 'split'
+    verbose: True
+    max_ex_size: 3
+  benzene:
+    rollout: 20
+    high2low: True
+    c_puct: 10.0
+    min_atoms: 5
+    expand_atoms: 20
+    reward_method: 'mc_l_shapley'
+    subgraph_building_method: 'split'
+    verbose: True
+    max_ex_size: -1
+  mnist75sp:
+    rollout: 20
+    high2low: True
+    c_puct: 10.0
+    min_atoms: 5
+    expand_atoms: 20
+    reward_method: 'mc_l_shapley'
+    subgraph_building_method: 'zero_filling'
+    verbose: True
+    max_ex_size: -1

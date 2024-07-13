@@ -1,0 +1,65 @@
+explainer_name: 'match_explainer'
+explanation_result_dir: 'match_explainer'
+superadditive_ext: False
+sample_method: 'random'
+num_samples: -1
+num_hops: 4
+
+evaluation:
+  subgraph_building_method: 'split'
+
+param:
+  bbbp:
+    reference_set_size: 1.0
+    max_ex_size: 5
+  graph_sst2:
+    reference_set_size: 1.0
+    max_ex_size: 5
+  mutag:
+    reference_set_size: 1.0
+    max_ex_size: 5
+  ba_2motifs:
+    reference_set_size: 1.0
+    max_ex_size: 5
+  mutag0:
+    reference_set_size: 1.0
+    max_ex_size: 5
+  benzene:
+    reference_set_size: 1.0
+    max_ex_size: 5
+  ba_house_grid:
+    reference_set_size: 1.0
+    max_ex_size: 5
+  ba_house_and_grid:
+    reference_set_size: 1.0
+    max_ex_size: 5
+  ba_house_or_grid:
+    reference_set_size: 1.0
+    max_ex_size: 5
+  mnist75sp:
+    reference_set_size: 1.0
+    max_ex_size: 5
+  mnist_superpixel:
+    reference_set_size: 1.0
+    max_ex_size: 5
+  spmotif:
+    reference_set_size: 1.0
+    max_ex_size: 5
+  bace:
+    reference_set_size: 1.0
+    max_ex_size: 5
+  twitter:
+    reference_set_size: 1.0
+    max_ex_size: 5
+  ba_shapes_khop_graph:
+    reference_set_size: 1.0
+    max_ex_size: 5
+  ba_shapes_2hop_graph:
+    reference_set_size: 1.0
+    max_ex_size: 5
+  ba_shapes:
+    reference_set_size: 1.0
+    max_ex_size: 5
+  graph_sst5:
+    reference_set_size: 1.0
+    max_ex_size: 5

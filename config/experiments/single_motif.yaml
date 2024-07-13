@@ -1,0 +1,26 @@
+name: single_motif
+experiment_settings: []
+num_motifs: 1
+
+sparsity_param:
+  mage: 'beta'
+  subgraphx: 'max_ex_size'
+  gnn_explainer: 'max_ex_size'
+  pgexplainer: 'max_ex_size'
+  gstarx: 'max_ex_size'
+  grad_cam: 'max_ex_size'
+  match_explainer: 'max_ex_size'
+  refine: 'max_ex_size'
+  same: 'max_ex_size'
+
+explanation_sparsity:
+  ba_house_grid: -1
+  ba_2motifs: 5
+  spmotif: -1
+  mnist75sp: -1
+  mutag0: 3
+  mutag: 3
+  benzene: 6
+  graph_sst2: 0.3
+  graph_sst5: 0.3
+  twitter: 0.3

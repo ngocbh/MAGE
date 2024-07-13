@@ -1,0 +1,56 @@
+explainer_name: 'grad_cam'
+explanation_result_dir: 'grad_cam'
+
+param:
+  bbbp:
+    none: None
+    sparsity: 0.5
+    max_ex_size: -1
+  ba_shapes:
+    none: None
+    sparsity: 0.5
+    max_ex_size: -1
+  ba_2motifs:
+    none: None
+    sparsity: 0.5
+    max_ex_size: 5
+  ba_house_grid:
+    none: None
+    sparsity: 0.5
+    max_ex_size: 5
+  spmotif:
+    none: None
+    sparsity: 0.5
+    max_ex_size: 5
+  mnist75sp:
+    none: None
+    sparsity: 0.5
+    max_ex_size: 5
+  ba_house_and_grid:
+    none: None
+    sparsity: 0.5
+    max_ex_size: 5
+  ba_house_or_grid:
+    none: None
+    sparsity: 0.5
+    max_ex_size: 5
+  mutag0:
+    none: None
+    sparsity: 0.5
+    max_ex_size: 5
+  benzene:
+    none: None
+    sparsity: 0.5
+    max_ex_size: 5
+  twitter:
+    none: None
+    sparsity: 0.5
+    max_ex_size: 5
+  graph_sst2:
+    none: None
+    sparsity: 0.5
+    max_ex_size: 5
+  graph_sst5:
+    none: None
+    sparsity: 0.5
+    max_ex_size: 5

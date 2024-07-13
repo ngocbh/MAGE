@@ -1,0 +1,127 @@
+explainer_saving_dir: ''
+explainer_name: 'pgexplainer'
+explainer_saving_name: 'pgexplainer.pth'
+explanation_result_dir: ''
+
+param:
+  ba_2motifs:
+    ex_learning_rate: 0.01
+    ex_epochs: 10
+    coff_size: 0.0
+    coff_ent: 0.0
+    t0: 5.0
+    t1: 1.0
+    undirected: True
+    sample_bias: 0
+    max_ex_size: -1
+    sparsity: 0.5
+  mutag0:
+    ex_learning_rate: 3e-3
+    ex_epochs: 20
+    coff_size: 0.005
+    coff_ent: 5e-4
+    t0: 5.0
+    t1: 1.0
+    undirected: True
+    sample_bias: 0
+    max_ex_size: -1
+    sparsity: 0.5
+  benzene:
+    ex_learning_rate: 3e-3
+    ex_epochs: 20
+    coff_size: 0.005
+    coff_ent: 5e-4
+    t0: 5.0
+    t1: 1.0
+    undirected: True
+    sample_bias: 0
+    max_ex_size: -1
+    sparsity: 0.5
+  ba_house_grid:
+    ex_learning_rate: 3e-3
+    ex_epochs: 20
+    coff_size: 0.005
+    coff_ent: 5e-4
+    t0: 5.0
+    t1: 1.0
+    undirected: True
+    sample_bias: 0
+    max_ex_size: -1
+    sparsity: 0.5
+  ba_house_and_grid:
+    ex_learning_rate: 3e-3
+    ex_epochs: 20
+    coff_size: 0.005
+    coff_ent: 5e-4
+    t0: 5.0
+    t1: 1.0
+    undirected: True
+    sample_bias: 0
+    max_ex_size: -1
+    sparsity: 0.5
+  ba_house_or_grid:
+    ex_learning_rate: 3e-3
+    ex_epochs: 20
+    coff_size: 0.005
+    coff_ent: 5e-4
+    t0: 5.0
+    t1: 1.0
+    undirected: True
+    sample_bias: 0
+    max_ex_size: -1
+    sparsity: 0.5
+  spmotif:
+    ex_learning_rate: 3e-3
+    ex_epochs: 20
+    coff_size: 0.005
+    coff_ent: 5e-4
+    t0: 5.0
+    t1: 1.0
+    undirected: True
+    sample_bias: 0
+    max_ex_size: -1
+    sparsity: 0.5
+  mnist75sp:
+    ex_learning_rate: 3e-3
+    ex_epochs: 20
+    coff_size: 0.005
+    coff_ent: 5e-4
+    t0: 5.0
+    t1: 1.0
+    undirected: True
+    sample_bias: 0
+    max_ex_size: -1
+    sparsity: 0.5
+  graph_sst2:
+    ex_learning_rate: 3e-3
+    ex_epochs: 20
+    coff_size: 0.005
+    coff_ent: 5e-4
+    t0: 5.0
+    t1: 1.0
+    undirected: True
+    sample_bias: 0
+    max_ex_size: -1
+    sparsity: 0.5
+  graph_sst5:
+    ex_learning_rate: 3e-3
+    ex_epochs: 20
+    coff_size: 0.005
+    coff_ent: 5e-4
+    t0: 5.0
+    t1: 1.0
+    undirected: True
+    sample_bias: 0
+    max_ex_size: -1
+    sparsity: 0.5
+  twitter:
+    ex_learning_rate: 3e-3
+    ex_epochs: 20
+    coff_size: 0.005
+    coff_ent: 5e-4
+    t0: 5.0
+    t1: 1.0
+    undirected: True
+    sample_bias: 0
+    max_ex_size: -1
+    sparsity: 0.5
