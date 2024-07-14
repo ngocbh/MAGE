@@ -51,7 +51,7 @@ To train a gnn model on a new dataset
 python train_gnns.py models=<model_name> datasets=<dataset_name>
 ```
 
-We also provide checkpoints for models we used in `checkpoints` directory of this repo. We highly recommend using these checkpoints for reproducing results in our paper.
+We also provide checkpoints for models we used in `checkpoints` directory of this repo. We highly recommend using these checkpoints to reproduce the results of our paper. Some of the checkpoints are downloaded directly from [SubgraphX repo](https://github.com/divelab/DIG/tree/dig-stable/benchmarks/xgraph)
 
 ## Availability
 
