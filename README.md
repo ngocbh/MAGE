@@ -103,7 +103,7 @@ python run.py explainers=<explainer_names> models=<model_name> datasets=<dataset
 
 other params that could be included:
 ```sh
-    experiments=<experiment_name> # single_motif, multi_motifs, payoff
+    experiments=<experiment_name> # single_motif, multi_motifs
     device_id=0 # GPU id
     rerun=True # Rerun the experiment or not
     max_ins=<number> # maximum number of evaluated instances
