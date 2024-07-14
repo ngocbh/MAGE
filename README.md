@@ -1,6 +1,6 @@
 # Official implementation of "Explaining Graph Neural Networks via Structure-aware Interaction Index" (ICML'24)
 
-<a href="https://arxiv.org/abs/2405.14352"><img src="https://img.shields.io/badge/arxiv-2303.15433-red?style=for-the-badge"></a>
+<a href="https://arxiv.org/abs/2405.14352"><img src="https://img.shields.io/badge/arxiv-2405.14352-red?style=for-the-badge"></a>
 <div align="center">
   <a href="https://ngocbh.github.io/" target="_blank">Ngoc&nbsp;Bui</a> &emsp;
   <a href="https://hieunt91.github.io/" target="_blank">Hieu&nbsp;Trung&nbsp;Nguyen</a> &emsp;
@@ -20,11 +20,12 @@ Details of algorithms and experimental results can be found in [our paper](https
 @article{bui2024explaining,
   title={Explaining Graph Neural Networks via Structure-aware Interaction Index},
   author={Bui, Ngoc and Nguyen, Hieu Trung and Nguyen, Viet Anh and Ying, Rex},
-  journal={arXiv preprint arXiv:2405.14352},
+  booktitle={International Conference on Machine Learning},
+  organization={PMLR},
   year={2024}
 }
 ```
-**Please CITE** our paper whenever this repository is used to help produce published results.
+Please consider citing this paper if it is helpful for you.
 
 ## Installation
 
