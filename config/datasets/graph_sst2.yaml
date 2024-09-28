@@ -1,0 +1,7 @@
+dataset_root: 'datasets'
+dataset_name: 'graph_sst2'
+ground_truth_available: False
+subgraph_building_method: 'zero_filling'
+random_split_flag: False
+data_split_ratio: None
+seed: 2

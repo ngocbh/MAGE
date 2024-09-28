@@ -1,6 +1,6 @@
 .DS_Store
 .hydra/
-datasets/
+./datasets/
 log/
 notebooks/
 notebook/

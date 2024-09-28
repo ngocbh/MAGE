@@ -1,0 +1,7 @@
+dataset_root: 'datasets'
+dataset_name: 'ba_house_or_grid'
+ground_truth_available: True
+subgraph_building_method: 'split'
+random_split_flag: True
+data_split_ratio: [0.8, 0.1, 0.1]
+seed: 2

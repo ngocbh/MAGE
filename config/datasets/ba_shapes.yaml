@@ -1,0 +1,3 @@
+dataset_root: 'datasets'
+dataset_name: 'ba_shapes'
+ground_truth_available: True
