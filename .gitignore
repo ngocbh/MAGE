@@ -1,11 +1,11 @@
 .DS_Store
 .hydra/
-./datasets/
 log/
 notebooks/
 notebook/
 results/
 scripts/
+datasets/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
